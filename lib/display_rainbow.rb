@@ -6,7 +6,6 @@ def display_rainbow(colors)
     result = result + "#{colors[count][0].upcase}: #{colors[count]}, "
     count = count.next
   end
-  result.pop
-  result.pop
+  result = result.slice(0, -2)
   puts ""
 end
