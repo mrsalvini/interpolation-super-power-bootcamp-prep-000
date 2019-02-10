@@ -7,5 +7,5 @@ def display_rainbow(colors)
     count = count.next
   end
   result = result.slice(0, -2)
-  puts ""
+  puts result
 end
